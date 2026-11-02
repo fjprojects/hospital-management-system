@@ -1,0 +1,22 @@
+# =============================================================================
+# Hospital Management System - Database Configuration Template
+# Group 11 - Object-Oriented Programming Lab Mini-Project
+# =============================================================================
+# Instructions:
+# 1. Copy this file to 'db.properties' in the project root directory.
+# 2. Update the credentials below to match your local MySQL configuration.
+# 3. DO NOT commit 'db.properties' with actual credentials to version control.
+# =============================================================================
+
+# JDBC Connection URL
+# Note: Ensure database 'hospital_management' has been created using 'schema.sql'
+db.url=jdbc:mysql://localhost:3306/hospital_management?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+
+# MySQL Database Username
+db.user=root
+
+# MySQL Database Password (Replace with your actual MySQL password)
+db.password=YOUR_MYSQL_PASSWORD_HERE
+
+# JDBC Driver Class Name
+db.driver=com.mysql.cj.jdbc.Driver

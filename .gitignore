@@ -1,0 +1,40 @@
+# =============================================================================
+# Hospital Management System - .gitignore
+# =============================================================================
+
+# Bytecode and Compiled Artifacts
+*.class
+target/
+bin/
+out/
+build/
+*.jar
+!lib/*.jar
+
+# Credentials and Local Secrets (CRITICAL: Never commit real DB passwords)
+db.properties
+*.env
+*.local
+
+# IDE and Editor Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary Files and Logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local Backups
+backup_original/
